@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB66097E1CB48050003EA5E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB66097D1CB48050003EA5E0 /* AppDelegate.swift */; };
+		CB6609801CB48050003EA5E0 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB66097F1CB48050003EA5E0 /* FirstViewController.swift */; };
+		CB6609821CB48050003EA5E0 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6609811CB48050003EA5E0 /* SecondViewController.swift */; };
+		CB6609851CB48050003EA5E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6609831CB48050003EA5E0 /* Main.storyboard */; };
+		CB6609871CB48050003EA5E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB6609861CB48050003EA5E0 /* Assets.xcassets */; };
+		CB66098A1CB48050003EA5E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6609881CB48050003EA5E0 /* LaunchScreen.storyboard */; };
+		CB6609951CB48050003EA5E0 /* GnatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6609941CB48050003EA5E0 /* GnatTests.swift */; };
+		CB6609A01CB48050003EA5E0 /* GnatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB66099F1CB48050003EA5E0 /* GnatUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB6609911CB48050003EA5E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB6609721CB48050003EA5E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB6609791CB48050003EA5E0;
+			remoteInfo = Gnat;
+		};
+		CB66099C1CB48050003EA5E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB6609721CB48050003EA5E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB6609791CB48050003EA5E0;
+			remoteInfo = Gnat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB66097A1CB48050003EA5E0 /* Gnat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gnat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB66097D1CB48050003EA5E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CB66097F1CB48050003EA5E0 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		CB6609811CB48050003EA5E0 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		CB6609841CB48050003EA5E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB6609861CB48050003EA5E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB6609891CB48050003EA5E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB66098B1CB48050003EA5E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB6609901CB48050003EA5E0 /* GnatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GnatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB6609941CB48050003EA5E0 /* GnatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GnatTests.swift; sourceTree = "<group>"; };
+		CB6609961CB48050003EA5E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB66099B1CB48050003EA5E0 /* GnatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GnatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB66099F1CB48050003EA5E0 /* GnatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GnatUITests.swift; sourceTree = "<group>"; };
+		CB6609A11CB48050003EA5E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB6609771CB48050003EA5E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB66098D1CB48050003EA5E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB6609981CB48050003EA5E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB6609711CB48050003EA5E0 = {
+			isa = PBXGroup;
+			children = (
+				CB66097C1CB48050003EA5E0 /* Gnat */,
+				CB6609931CB48050003EA5E0 /* GnatTests */,
+				CB66099E1CB48050003EA5E0 /* GnatUITests */,
+				CB66097B1CB48050003EA5E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB66097B1CB48050003EA5E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB66097A1CB48050003EA5E0 /* Gnat.app */,
+				CB6609901CB48050003EA5E0 /* GnatTests.xctest */,
+				CB66099B1CB48050003EA5E0 /* GnatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB66097C1CB48050003EA5E0 /* Gnat */ = {
+			isa = PBXGroup;
+			children = (
+				CB66097D1CB48050003EA5E0 /* AppDelegate.swift */,
+				CB66097F1CB48050003EA5E0 /* FirstViewController.swift */,
+				CB6609811CB48050003EA5E0 /* SecondViewController.swift */,
+				CB6609831CB48050003EA5E0 /* Main.storyboard */,
+				CB6609861CB48050003EA5E0 /* Assets.xcassets */,
+				CB6609881CB48050003EA5E0 /* LaunchScreen.storyboard */,
+				CB66098B1CB48050003EA5E0 /* Info.plist */,
+			);
+			path = Gnat;
+			sourceTree = "<group>";
+		};
+		CB6609931CB48050003EA5E0 /* GnatTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB6609941CB48050003EA5E0 /* GnatTests.swift */,
+				CB6609961CB48050003EA5E0 /* Info.plist */,
+			);
+			path = GnatTests;
+			sourceTree = "<group>";
+		};
+		CB66099E1CB48050003EA5E0 /* GnatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CB66099F1CB48050003EA5E0 /* GnatUITests.swift */,
+				CB6609A11CB48050003EA5E0 /* Info.plist */,
+			);
+			path = GnatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB6609791CB48050003EA5E0 /* Gnat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB6609A41CB48050003EA5E0 /* Build configuration list for PBXNativeTarget "Gnat" */;
+			buildPhases = (
+				CB6609761CB48050003EA5E0 /* Sources */,
+				CB6609771CB48050003EA5E0 /* Frameworks */,
+				CB6609781CB48050003EA5E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gnat;
+			productName = Gnat;
+			productReference = CB66097A1CB48050003EA5E0 /* Gnat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB66098F1CB48050003EA5E0 /* GnatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB6609A71CB48050003EA5E0 /* Build configuration list for PBXNativeTarget "GnatTests" */;
+			buildPhases = (
+				CB66098C1CB48050003EA5E0 /* Sources */,
+				CB66098D1CB48050003EA5E0 /* Frameworks */,
+				CB66098E1CB48050003EA5E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB6609921CB48050003EA5E0 /* PBXTargetDependency */,
+			);
+			name = GnatTests;
+			productName = GnatTests;
+			productReference = CB6609901CB48050003EA5E0 /* GnatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CB66099A1CB48050003EA5E0 /* GnatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB6609AA1CB48050003EA5E0 /* Build configuration list for PBXNativeTarget "GnatUITests" */;
+			buildPhases = (
+				CB6609971CB48050003EA5E0 /* Sources */,
+				CB6609981CB48050003EA5E0 /* Frameworks */,
+				CB6609991CB48050003EA5E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB66099D1CB48050003EA5E0 /* PBXTargetDependency */,
+			);
+			name = GnatUITests;
+			productName = GnatUITests;
+			productReference = CB66099B1CB48050003EA5E0 /* GnatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB6609721CB48050003EA5E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = floundertech;
+				TargetAttributes = {
+					CB6609791CB48050003EA5E0 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					CB66098F1CB48050003EA5E0 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = CB6609791CB48050003EA5E0;
+					};
+					CB66099A1CB48050003EA5E0 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = CB6609791CB48050003EA5E0;
+					};
+				};
+			};
+			buildConfigurationList = CB6609751CB48050003EA5E0 /* Build configuration list for PBXProject "Gnat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB6609711CB48050003EA5E0;
+			productRefGroup = CB66097B1CB48050003EA5E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB6609791CB48050003EA5E0 /* Gnat */,
+				CB66098F1CB48050003EA5E0 /* GnatTests */,
+				CB66099A1CB48050003EA5E0 /* GnatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB6609781CB48050003EA5E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB66098A1CB48050003EA5E0 /* LaunchScreen.storyboard in Resources */,
+				CB6609871CB48050003EA5E0 /* Assets.xcassets in Resources */,
+				CB6609851CB48050003EA5E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB66098E1CB48050003EA5E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB6609991CB48050003EA5E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB6609761CB48050003EA5E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB6609821CB48050003EA5E0 /* SecondViewController.swift in Sources */,
+				CB66097E1CB48050003EA5E0 /* AppDelegate.swift in Sources */,
+				CB6609801CB48050003EA5E0 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB66098C1CB48050003EA5E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB6609951CB48050003EA5E0 /* GnatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB6609971CB48050003EA5E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB6609A01CB48050003EA5E0 /* GnatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB6609921CB48050003EA5E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB6609791CB48050003EA5E0 /* Gnat */;
+			targetProxy = CB6609911CB48050003EA5E0 /* PBXContainerItemProxy */;
+		};
+		CB66099D1CB48050003EA5E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB6609791CB48050003EA5E0 /* Gnat */;
+			targetProxy = CB66099C1CB48050003EA5E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB6609831CB48050003EA5E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB6609841CB48050003EA5E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB6609881CB48050003EA5E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB6609891CB48050003EA5E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB6609A21CB48050003EA5E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB6609A31CB48050003EA5E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB6609A51CB48050003EA5E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Gnat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.floundertech.Gnat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CB6609A61CB48050003EA5E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Gnat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.floundertech.Gnat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CB6609A81CB48050003EA5E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GnatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.floundertech.GnatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gnat.app/Gnat";
+			};
+			name = Debug;
+		};
+		CB6609A91CB48050003EA5E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GnatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.floundertech.GnatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gnat.app/Gnat";
+			};
+			name = Release;
+		};
+		CB6609AB1CB48050003EA5E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GnatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.floundertech.GnatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Gnat;
+			};
+			name = Debug;
+		};
+		CB6609AC1CB48050003EA5E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GnatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.floundertech.GnatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Gnat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB6609751CB48050003EA5E0 /* Build configuration list for PBXProject "Gnat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB6609A21CB48050003EA5E0 /* Debug */,
+				CB6609A31CB48050003EA5E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB6609A41CB48050003EA5E0 /* Build configuration list for PBXNativeTarget "Gnat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB6609A51CB48050003EA5E0 /* Debug */,
+				CB6609A61CB48050003EA5E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CB6609A71CB48050003EA5E0 /* Build configuration list for PBXNativeTarget "GnatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB6609A81CB48050003EA5E0 /* Debug */,
+				CB6609A91CB48050003EA5E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CB6609AA1CB48050003EA5E0 /* Build configuration list for PBXNativeTarget "GnatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB6609AB1CB48050003EA5E0 /* Debug */,
+				CB6609AC1CB48050003EA5E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB6609721CB48050003EA5E0 /* Project object */;
+}
