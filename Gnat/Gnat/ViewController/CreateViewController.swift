@@ -1,14 +1,14 @@
 //
-//  SecondViewController.swift
+//  CreateViewController.swift
 //  Gnat
 //
-//  Created by Brax on 4/5/16.
+//  Created by Kyle Roberts on 4/5/16.
 //  Copyright © 2016 floundertech. All rights reserved.
 //
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class CreateViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

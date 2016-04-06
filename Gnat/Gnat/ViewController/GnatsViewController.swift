@@ -1,14 +1,14 @@
 //
-//  FirstViewController.swift
+//  GnatsViewController.swift
 //  Gnat
 //
-//  Created by Brax on 4/5/16.
+//  Created by Kyle Roberts on 4/5/16.
 //  Copyright © 2016 floundertech. All rights reserved.
 //
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class GnatsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

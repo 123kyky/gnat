@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CB66097E1CB48050003EA5E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB66097D1CB48050003EA5E0 /* AppDelegate.swift */; };
-		CB6609801CB48050003EA5E0 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB66097F1CB48050003EA5E0 /* FirstViewController.swift */; };
-		CB6609821CB48050003EA5E0 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6609811CB48050003EA5E0 /* SecondViewController.swift */; };
+		71B4482F1CB566E900210E79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B4482A1CB566E900210E79 /* AppDelegate.swift */; };
+		71B448301CB566E900210E79 /* GnatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B4482C1CB566E900210E79 /* GnatsViewController.swift */; };
+		71B448311CB566E900210E79 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B4482D1CB566E900210E79 /* CreateViewController.swift */; };
+		71B448321CB566E900210E79 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B4482E1CB566E900210E79 /* SettingsViewController.swift */; };
 		CB6609851CB48050003EA5E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6609831CB48050003EA5E0 /* Main.storyboard */; };
 		CB6609871CB48050003EA5E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB6609861CB48050003EA5E0 /* Assets.xcassets */; };
 		CB66098A1CB48050003EA5E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6609881CB48050003EA5E0 /* LaunchScreen.storyboard */; };
@@ -35,10 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		71B4482A1CB566E900210E79 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		71B4482C1CB566E900210E79 /* GnatsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GnatsViewController.swift; sourceTree = "<group>"; };
+		71B4482D1CB566E900210E79 /* CreateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
+		71B4482E1CB566E900210E79 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		CB66097A1CB48050003EA5E0 /* Gnat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gnat.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB66097D1CB48050003EA5E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CB66097F1CB48050003EA5E0 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		CB6609811CB48050003EA5E0 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		CB6609841CB48050003EA5E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB6609861CB48050003EA5E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB6609891CB48050003EA5E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -76,6 +78,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		71B448291CB566E900210E79 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				71B4482A1CB566E900210E79 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		71B4482B1CB566E900210E79 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				71B4482C1CB566E900210E79 /* GnatsViewController.swift */,
+				71B4482D1CB566E900210E79 /* CreateViewController.swift */,
+				71B4482E1CB566E900210E79 /* SettingsViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		71B4483C1CB5675400210E79 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				CB6609831CB48050003EA5E0 /* Main.storyboard */,
+				CB6609881CB48050003EA5E0 /* LaunchScreen.storyboard */,
+			);
+			name = Interface;
+			sourceTree = "<group>";
+		};
 		CB6609711CB48050003EA5E0 = {
 			isa = PBXGroup;
 			children = (
@@ -99,12 +128,10 @@
 		CB66097C1CB48050003EA5E0 /* Gnat */ = {
 			isa = PBXGroup;
 			children = (
-				CB66097D1CB48050003EA5E0 /* AppDelegate.swift */,
-				CB66097F1CB48050003EA5E0 /* FirstViewController.swift */,
-				CB6609811CB48050003EA5E0 /* SecondViewController.swift */,
-				CB6609831CB48050003EA5E0 /* Main.storyboard */,
+				71B448291CB566E900210E79 /* Application */,
+				71B4482B1CB566E900210E79 /* ViewController */,
+				71B4483C1CB5675400210E79 /* Interface */,
 				CB6609861CB48050003EA5E0 /* Assets.xcassets */,
-				CB6609881CB48050003EA5E0 /* LaunchScreen.storyboard */,
 				CB66098B1CB48050003EA5E0 /* Info.plist */,
 			);
 			path = Gnat;
@@ -259,9 +286,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB6609821CB48050003EA5E0 /* SecondViewController.swift in Sources */,
-				CB66097E1CB48050003EA5E0 /* AppDelegate.swift in Sources */,
-				CB6609801CB48050003EA5E0 /* FirstViewController.swift in Sources */,
+				71B448311CB566E900210E79 /* CreateViewController.swift in Sources */,
+				71B4482F1CB566E900210E79 /* AppDelegate.swift in Sources */,
+				71B448301CB566E900210E79 /* GnatsViewController.swift in Sources */,
+				71B448321CB566E900210E79 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,6 +514,7 @@
 				CB6609A61CB48050003EA5E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB6609A71CB48050003EA5E0 /* Build configuration list for PBXNativeTarget "GnatTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +523,7 @@
 				CB6609A91CB48050003EA5E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB6609AA1CB48050003EA5E0 /* Build configuration list for PBXNativeTarget "GnatUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +532,7 @@
 				CB6609AC1CB48050003EA5E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
