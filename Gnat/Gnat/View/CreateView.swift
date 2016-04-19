@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import CoreData
 
-class CreateView: UIView {
+class CreateView: UIView, UITextFieldDelegate {
     
     @IBOutlet weak var view: UIView!
     @IBOutlet weak var nameTextField: UITextField!
@@ -29,4 +30,14 @@ class CreateView: UIView {
     @IBAction func daysSegmentTapped(sender: AnyObject) {
     }
     
+    @IBAction func saveButtonTapped(sender: AnyObject) {
+        let context = (UIApplication.sharedApplication().delegate as! AppDelegate).managedObjectContext
+        let gnat = NSEntityDescription.insertNewObjectForEntityForName("Gnat", inManagedObjectContext: context) as! Gnat
+        gnat.title = nameTextField.text!
+    }
+    
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        endEditing(true)
+        return true
+    }
 }

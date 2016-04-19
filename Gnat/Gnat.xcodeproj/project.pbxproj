@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7142F2661CC6696F00CE5BA7 /* Gnat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7142F2641CC6696F00CE5BA7 /* Gnat.xcdatamodeld */; };
+		7142F2681CC66BEE00CE5BA7 /* Gnat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7142F2671CC66BEE00CE5BA7 /* Gnat.swift */; };
 		71B4482F1CB566E900210E79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B4482A1CB566E900210E79 /* AppDelegate.swift */; };
 		71B448301CB566E900210E79 /* GnatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B4482C1CB566E900210E79 /* GnatsViewController.swift */; };
 		71B448311CB566E900210E79 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B4482D1CB566E900210E79 /* CreateViewController.swift */; };
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7142F2651CC6696F00CE5BA7 /* Gnat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Gnat.xcdatamodel; sourceTree = "<group>"; };
+		7142F2671CC66BEE00CE5BA7 /* Gnat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gnat.swift; sourceTree = "<group>"; };
 		71B4482A1CB566E900210E79 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71B4482C1CB566E900210E79 /* GnatsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GnatsViewController.swift; sourceTree = "<group>"; };
 		71B4482D1CB566E900210E79 /* CreateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
@@ -82,6 +86,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7142F2631CC6695900CE5BA7 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				7142F2641CC6696F00CE5BA7 /* Gnat.xcdatamodeld */,
+				7142F2671CC66BEE00CE5BA7 /* Gnat.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
 		71B448291CB566E900210E79 /* Application */ = {
 			isa = PBXGroup;
 			children = (
@@ -145,6 +158,7 @@
 				71B4482B1CB566E900210E79 /* ViewController */,
 				71B4483D1CB56EED00210E79 /* View */,
 				71B4483C1CB5675400210E79 /* Interface */,
+				7142F2631CC6695900CE5BA7 /* CoreData */,
 				CB6609861CB48050003EA5E0 /* Assets.xcassets */,
 				CB66098B1CB48050003EA5E0 /* Info.plist */,
 			);
@@ -304,7 +318,9 @@
 				71B448311CB566E900210E79 /* CreateViewController.swift in Sources */,
 				71B4482F1CB566E900210E79 /* AppDelegate.swift in Sources */,
 				71B448301CB566E900210E79 /* GnatsViewController.swift in Sources */,
+				7142F2661CC6696F00CE5BA7 /* Gnat.xcdatamodeld in Sources */,
 				71B448321CB566E900210E79 /* SettingsViewController.swift in Sources */,
+				7142F2681CC66BEE00CE5BA7 /* Gnat.swift in Sources */,
 				71B4483F1CB56F0100210E79 /* CreateView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -551,6 +567,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7142F2641CC6696F00CE5BA7 /* Gnat.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7142F2651CC6696F00CE5BA7 /* Gnat.xcdatamodel */,
+			);
+			currentVersion = 7142F2651CC6696F00CE5BA7 /* Gnat.xcdatamodel */;
+			path = Gnat.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = CB6609721CB48050003EA5E0 /* Project object */;
 }
