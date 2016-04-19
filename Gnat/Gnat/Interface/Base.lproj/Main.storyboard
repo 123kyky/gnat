@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--My Gnats-->
@@ -49,14 +50,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aSj-xO-H9M">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aSj-xO-H9M">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mjh-7V-zlW" customClass="CreateView" customModule="Gnat" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mjh-7V-zlW" customClass="CreateView" customModule="Gnat" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="10" width="600" height="590"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </view>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="mjh-7V-zlW" firstAttribute="centerY" secondItem="aSj-xO-H9M" secondAttribute="centerY" constant="5" id="GEs-BT-7GI"/>
+                                    <constraint firstItem="mjh-7V-zlW" firstAttribute="centerX" secondItem="aSj-xO-H9M" secondAttribute="centerX" id="Moo-uc-lno"/>
+                                    <constraint firstAttribute="trailing" secondItem="mjh-7V-zlW" secondAttribute="trailing" id="OdQ-Xk-dMQ"/>
+                                    <constraint firstItem="mjh-7V-zlW" firstAttribute="top" secondItem="aSj-xO-H9M" secondAttribute="top" constant="10" id="QmW-0y-lDi"/>
+                                    <constraint firstAttribute="bottom" secondItem="mjh-7V-zlW" secondAttribute="bottom" id="T3h-Ng-jie"/>
+                                    <constraint firstItem="mjh-7V-zlW" firstAttribute="leading" secondItem="aSj-xO-H9M" secondAttribute="leading" id="z48-E0-VC3"/>
+                                </constraints>
                                 <connections>
                                     <outlet property="delegate" destination="8rJ-Kc-sve" id="74K-Ol-7Cx"/>
                                 </connections>
@@ -67,6 +76,10 @@
                             <constraint firstItem="aSj-xO-H9M" firstAttribute="top" secondItem="QS5-Rx-YEW" secondAttribute="top" id="GzG-3c-JUj"/>
                             <constraint firstAttribute="trailing" secondItem="aSj-xO-H9M" secondAttribute="trailing" id="Luf-mx-yjG"/>
                             <constraint firstAttribute="bottom" secondItem="aSj-xO-H9M" secondAttribute="bottom" id="TNY-aT-9uW"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="aSj-xO-H9M" secondAttribute="trailing" constant="-20" id="kKf-mx-Ig1"/>
+                            <constraint firstItem="aSj-xO-H9M" firstAttribute="top" secondItem="L7p-HK-0SC" secondAttribute="bottom" constant="-20" id="nAd-9W-yeY"/>
+                            <constraint firstItem="Djb-ko-YwX" firstAttribute="top" secondItem="aSj-xO-H9M" secondAttribute="bottom" constant="-49" id="oVv-dI-UHQ"/>
+                            <constraint firstItem="aSj-xO-H9M" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leadingMargin" constant="-20" id="tal-Gf-3RY"/>
                             <constraint firstItem="aSj-xO-H9M" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leading" id="yzX-Iy-dJu"/>
                         </constraints>
                     </view>
